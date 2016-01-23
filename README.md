@@ -1,6 +1,7 @@
 # snappy
+[![Build Status](https://travis-ci.org/benoist/snappy-crystal.svg)](https://travis-ci.org/benoist/snappy-crystal)
 
-TODO: Write a description here
+Snappy bindings for Crystal
 
 ## Installation
 
@@ -10,7 +11,7 @@ Add this to your application's `shard.yml`:
 ```yaml
 dependencies:
   snappy:
-    github: [your-github-name]/snappy
+    github: benoist/snappy-crystal
 ```
 
 
@@ -19,14 +20,10 @@ dependencies:
 
 ```crystal
 require "snappy"
+
+deflated = Snappy.deflate("something".to_slice)
+inflated = Snappy.inflate(deflated)
 ```
-
-
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
 
 ## Contributing
 
@@ -38,4 +35,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [[your-github-name]](https://github.com/[your-github-name]) Benoist Claassen - creator, maintainer
+- [Benoist](https://github.com/benoist) Benoist Claassen - creator, maintainer
