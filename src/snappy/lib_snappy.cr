@@ -1,8 +1,8 @@
 @[Link("snappy")]
 lib LibSnappy
   enum SnappyStatus
-    SnappyOk = 0
-    SnappyInvalidInput = 1
+    SnappyOk             = 0
+    SnappyInvalidInput   = 1
     SnappyBufferTooSmall = 2
   end
 

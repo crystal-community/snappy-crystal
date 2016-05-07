@@ -8,5 +8,4 @@ describe Snappy do
 
     Snappy.inflate(deflated).should eq "test".to_slice
   end
-
 end
