@@ -1,6 +1,8 @@
 # snappy
 [![Build Status](https://travis-ci.org/benoist/snappy-crystal.svg)](https://travis-ci.org/benoist/snappy-crystal)
 
+**Project no longer maintained, use https://github.com/naqvis/snappy instead**
+
 Snappy bindings for Crystal
 
 ## Installation
